@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Email Header Phishing Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Email Header Phishing Analysis Tool</h1>
+
+<p class="subtitle">
+Paste an email header below and analyze for phishing indicators
+</p>
+
+
+<textarea id="headerInput"
+placeholder="Paste Email Header Here..."></textarea>
+
+
+<div class="buttons">
+
+<button onclick="analyzeHeader()">Analyze Header</button>
+
+<button onclick="clearBox()">Clear</button>
+
+</div>
+
+
+<div id="resultBox">
+
+<h2>Result</h2>
+
+<p id="classification">Waiting for analysis...</p>
+
+<p id="score"></p>
+
+<p id="warning" style="color:red;font-weight:bold;"></p>
+
+<div id="indicators"></div>
+
+</div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
