@@ -120,8 +120,8 @@ Project/
 ## 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd Project
+git clone https://github.com/Linnie06/Email_Header_Phishing_Analysis.git
+cd Email_Header_Phishing_Analysis
 ```
 
 ---
